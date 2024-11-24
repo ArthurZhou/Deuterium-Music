@@ -320,8 +320,8 @@
         flex-direction: row;
         .introduce-img{
           margin-right: 10Px;
-          border: 0.5Px solid rgb(218, 218, 218);
-          box-shadow: 0 0 6Px 1Px rgba(0, 0, 0, 0.03);
+          border: 0.5Px solid rgb(49, 49, 49);
+          box-shadow: 0 0 6Px 1Px rgba(255, 255, 255, 0.03);
           // padding: 2Px;
           width: 150Px;
           height: 150Px;
@@ -350,7 +350,7 @@
             width: 90%;
             font:  22Px Source Han Sans;
             font-weight: bold;
-            color: black;
+            color: rgb(255, 255, 255);
             overflow: hidden;
             display: -webkit-box;
             -webkit-box-orient: vertical;
@@ -366,7 +366,7 @@
             .introduce-author{
               width: 100%;
               font-size: 12Px;
-              color: black;
+              color: rgb(255, 255, 255);
               transition: 0.2s;
               overflow: hidden;
               display: -webkit-box;
@@ -402,7 +402,7 @@
                 span{
                   margin-left: 5Px;
                   font-size: 15Px;
-                  color: black;
+                  color: rgb(255, 255, 255);
                 }
               }
             }
@@ -416,26 +416,26 @@
           height: 16Px;
         }
         .introduce-1{
-          border: 1Px solid black;
+          border: 1Px solid rgb(255, 255, 255);
           font: 10Px SourceHanSansCN-Bold;
-          color: black;
+          color: rgb(255, 255, 255);
         }
         .introduce-2{
           margin-top: 6Px;
-          background-color: black;
+          background-color: rgb(255, 255, 255);
           font: 10Px SourceHanSansCN-Bold;
-          color: rgb(207, 226, 231);
+          color: rgb(37, 41, 42);
           transition: 0.2s;
           &:hover{
             cursor: pointer;
-            background-color: rgb(61, 61, 61);
+            background-color: rgb(199, 199, 199);
           }
         }
       }
       .introduce-detail-text{
         width: 0;
         height: 0;
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(255, 255, 255, 0.9);
         position: fixed;
         z-index: 998;
         top: 50%;
@@ -455,7 +455,7 @@
             margin: 0;
             font: 14Px Source Han Sans;
             font-weight: 600;
-            color: rgba(255, 255, 255, 0.9);
+            color: rgba(0, 0, 0, 0.9);
             text-align: left;
             text-indent: 2em;
           }
@@ -484,7 +484,7 @@
         .dialog-style{
           width: 9Px;
           height: 9Px;
-          background-color: rgb(247, 247, 247);
+          background-color: rgb(0, 0, 0);
           position: absolute;
           opacity: 0;
           animation: dialog-style-in 0.4s forwards;
@@ -530,15 +530,15 @@
         span{
           margin-right: 25Px;
           font: 15Px SourceHanSansCN-Bold;
-          color: rgb(78, 78, 78);
+          color: rgb(179, 179, 179);
           transition: 0.2s;
           &:hover{
             cursor: pointer;
-            color: black;
+            color: rgb(255, 255, 255);
           }
         }
         .type-selected{
-          color: black;
+          color: rgb(255, 255, 255);
         }
       }
       .library-playall{
@@ -562,7 +562,7 @@
           span{
             margin: 0 5Px;
             font: 12Px SourceHanSansCN-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
             white-space: nowrap;
           }
         }
@@ -578,7 +578,7 @@
           transition: 0.2s;
           &:hover{
             cursor: pointer;
-            color: black;
+            color: rgb(255, 255, 255);
           }
         }
       }

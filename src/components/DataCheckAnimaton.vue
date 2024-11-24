@@ -38,7 +38,7 @@
         content: '';
         width: 100%;
         height: 100%;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         position: absolute;
         z-index: -1;
         top: 0;
@@ -60,7 +60,7 @@
     .white-border{
         width: 99%;
         height: 99%;
-        border: 6px solid rgb(0, 0, 0);
+        border: 6px solid rgb(255, 255, 255);
         position: absolute;
         top: 50%;
         left: 50%;
@@ -69,23 +69,23 @@
         justify-items: center;
         animation: white-border 1s 0.6s ease forwards;
         @keyframes white-border {
-            0%{border: 6px solid rgb(255, 255, 255);}
-            40%{border: 6px solid rgb(255, 255, 255);width: 94%;height: 94%;}
-            75%{border: 6px solid rgb(255, 255, 255);}
-            80%{border: 6px solid rgb(0, 0, 0);}
-            90%{border: 6px solid rgb(255, 255, 255)}
-            95%{border: 6px solid rgb(0, 0, 0);}
-            100%{border: 6px solid rgb(0, 0, 0);width: 94%;height: 94%;}
+            0%{border: 6px solid rgb(0, 0, 0);}
+            40%{border: 6px solid rgb(0, 0, 0);width: 94%;height: 94%;}
+            75%{border: 6px solid rgb(0, 0, 0);}
+            80%{border: 6px solid rgb(255, 255, 255);}
+            90%{border: 6px solid rgb(0, 0, 0)}
+            95%{border: 6px solid rgb(255, 255, 255);}
+            100%{border: 6px solid rgb(255, 255, 255);width: 94%;height: 94%;}
         }
         .check-text{
             width: 100%;
             height: 100%;
             position: relative;
             font: 46px SouceHanSansCN-Heavy;
-            color: white;
+            color: rgb(0, 0, 0);
             animation: font-color 0.2s 1.7s forwards;
             @keyframes font-color {
-                100%{color: black;}
+                100%{color: rgb(255, 255, 255);}
             }
             div{
                 width: 50%;
@@ -171,13 +171,13 @@
     .white-border{
         animation: white-border-error 1s 0.6s ease forwards;
         @keyframes white-border-error {
-            0%{border: 6px solid rgb(255, 255, 255);}
-            40%{border: 6px solid rgb(255, 255, 255);width: 94%;height: 94%;}
-            75%{border: 6px solid rgb(255, 255, 255);}
+            0%{border: 6px solid rgb(0, 0, 0);}
+            40%{border: 6px solid rgb(0, 0, 0);width: 94%;height: 94%;}
+            75%{border: 6px solid rgb(0, 0, 0);}
             80%{border: 6px solid rgb(255, 0, 0);}
-            90%{border: 6px solid rgb(255, 255, 255)}
+            90%{border: 6px solid rgb(0, 0, 0)}
             95%{border: 6px solid rgb(255, 0, 0);}
-            100%{border: 6px solid rgb(255, 255, 255);width: 94%;height: 94%;}
+            100%{border: 6px solid rgb(0, 0, 0);width: 94%;height: 94%;}
         }
         .check-text{
             animation: none

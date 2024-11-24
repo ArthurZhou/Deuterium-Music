@@ -86,12 +86,12 @@
   .mainWindow{
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(176, 209, 217, 0.9) -20%,rgba(176, 209, 217, 0.4) 50%,rgba(176, 209, 217, 0.9) 120%);
+    background: linear-gradient(rgba(0, 0, 0, 0.9) -20%,rgba(40, 47, 49, 0.4) 50%,rgba(0, 0, 0, 0.9) 120%);
     opacity: 0;
     animation: mainWindows-starting 0.8s cubic-bezier(.14,.91,.58,1) forwards;
     @keyframes mainWindows-starting {
-      0%{background-color: rgba(222, 235, 239, 1);opacity: 0;transform: scale(1.3);}
-      100%{background-color: rgb(255, 255, 255);opacity: 1;transform: scale(1);}
+      0%{background-color: rgb(41, 43, 44);opacity: 0;transform: scale(1.3);}
+      100%{background-color: rgb(0, 0, 0);opacity: 1;transform: scale(1);}
     }
     .home{
       height: calc(100% - 78Px);
@@ -137,7 +137,7 @@
     left: 50%;
     bottom: 35Px;
     transform: translateX(-50%);
-    box-shadow: 0 0 15Px 2Px rgba(189, 189, 189, 0.1);
+    box-shadow: 0 0 15Px 2Px rgba(71, 71, 71, 0.1);
   }
   .musicPlayer{
     width: 100%;  
@@ -161,7 +161,7 @@
   .update{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     position: fixed;
     z-index: 999;
   }

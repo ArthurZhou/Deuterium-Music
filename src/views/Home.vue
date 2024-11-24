@@ -36,9 +36,9 @@
       <div class="home-header">
         <div class="header-router" :class="{'router-closed': !userStore.homePage && !userStore.cloudDiskPage}">
           <!-- <div class="logout" @click="userLogout()">退出登录</div> -->
-          <router-link class="button-home" :style="{color: router.currentRoute.value.name == 'homepage' ? 'black' : '#353535'}" to="/" v-if="userStore.homePage">首页</router-link>
-          <router-link class="button-cloud" :style="{color: router.currentRoute.value.name == 'clouddisk' ? 'black' : '#353535'}" to="/cloud" v-if="userStore.cloudDiskPage">云盘</router-link>
-          <router-link class="button-music" :style="{color: router.currentRoute.value.name == 'mymusic' ? 'black' : '#353535'}" to="/mymusic" v-if="userStore.homePage || userStore.cloudDiskPage">我的音乐</router-link>
+          <router-link class="button-home" :style="{color: router.currentRoute.value.name == 'homepage' ? 'white' : '#353535'}" to="/" v-if="userStore.homePage">首页</router-link>
+          <router-link class="button-cloud" :style="{color: router.currentRoute.value.name == 'clouddisk' ? 'white' : '#353535'}" to="/cloud" v-if="userStore.cloudDiskPage">云盘</router-link>
+          <router-link class="button-music" :style="{color: router.currentRoute.value.name == 'mymusic' ? 'white' : '#353535'}" to="/mymusic" v-if="userStore.homePage || userStore.cloudDiskPage">我的音乐</router-link>
           <div class="user">
             <div class="user-container">
               <div class="user-head" @click="userStore.appOptionShow = true">
@@ -81,28 +81,36 @@
   }
   
   .home-header{
+    color: white;
     margin: 30px 0 20px 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     .header-router{
+      color: white;
       position: relative;
       a{
         font: 18px SourceHanSansCN-Bold;
-        color: black;
+        color: rgb(255, 255, 255);
         outline: none;
       }
       .button-home{
         margin-right: 40px;
+        color: white !important;
       }
       .button-cloud{
         margin-right: 40px;
+        color: white !important;
+      }
+      .button-music{
+        margin-right: 40px;
+        color: white !important;
       }
       .router-tracker{
         width: 14px;
         height: 2px;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         position: absolute;
         transition: 0.3s;
       }
@@ -128,7 +136,7 @@
           .user-head{
             width: 100%;
             height: 100%;
-            border: 1px solid rgb(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.6);
             border-radius: 50%;
             overflow: hidden;
             position: relative;
@@ -145,7 +153,7 @@
             .img-mask{
               width: 100%;
               height: 100%;
-              background-color: rgba(0, 0, 0, 0.3);
+              background-color: rgba(255, 255, 255, 0.3);
               opacity: 0;
               position: absolute;
               top: 0;
@@ -163,7 +171,7 @@
             background-image: url('../assets/img/halftone.png');
             background-size: 120%;
             background-repeat: repeat;
-            background-color: rgb(20, 20, 20);
+            background-color: rgb(240, 240, 240);
             overflow: hidden;
             position: absolute;
             top: 35px;
@@ -174,12 +182,12 @@
             .option{
               padding: 8px 14px;
               font: 14Px SourceHanSansCN-Bold;
-              color: white;
+              color: rgb(0, 0, 0);
               text-align: left;
               transition: 0.2s;
               &:hover{
                 cursor: pointer;
-                background-color: rgba(53, 53, 53, 0.7);
+                background-color: rgba(187, 187, 187, 0.7);
               }
               &:active{
                 transform: scale(0.95);
@@ -188,7 +196,7 @@
             .option-style{
               width: 4px;
               height: 4px;
-              background-color: white;
+              background-color: rgb(0, 0, 0);
               position: absolute;
             }
             $stylePosition: 4px;

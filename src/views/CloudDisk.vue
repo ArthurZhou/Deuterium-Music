@@ -218,19 +218,19 @@
           margin-right: 5Px;
           width: 6Px;
           height: 6Px;
-          background-color: black;
+          background-color: rgb(255, 255, 255);
         }
         .title-name{
           font: 16Px SourceHanSansCN-Bold;
           text-align: left;
-          color: black;
+          color: rgb(255, 255, 255);
           display: flex;
           flex-direction: row;
         }
       }
       .disk-tab{
         height: calc(78% - 29Px);
-        background-color: rgba(255, 255, 255, 0.30);
+        background-color: rgba(0, 0, 0, 0.3);
         position: relative;
         .file-type{
           height: 55%;
@@ -273,7 +273,7 @@
             .type-name{
               margin-top: 10Px;
               font: 12Px SourceHanSanSCN-Bold;
-              color: black;
+              color: rgb(255, 255, 255);
             }
           }
         }
@@ -284,15 +284,15 @@
             width: 100%;
             height: 100%;
             padding: 5Px 7Px;
-            background-color: rgba(255, 255, 255, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             .info-title{
               font: 9Px SourceHanSansCN-Bold;
               text-align: left;
-              color: rgba(255, 255, 255, 0.9);
-              background-color: black;
+              color: rgba(0, 0, 0, 0.9);
+              background-color: rgb(255, 255, 255);
               padding: 1Px 4Px;
             }
             .info-list{
@@ -308,12 +308,12 @@
                 .item-lable{
                   margin-right: 6Px;
                   font: 12Px SourceHanSansCN-Bold;
-                  color: black;
+                  color: rgb(255, 255, 255);
                   white-space: nowrap;
                 }
                 .item-info{
                   font: 10Px SourceHanSansCN-Bold;
-                  color: black;
+                  color: rgb(255, 255, 255);
                 }
                 .disk-capacity{
                   width: 100%;
@@ -325,14 +325,14 @@
                     position: relative;
                     .cloud-capacity{
                       height: 7Px !important;
-                      box-shadow: 0 0 0 0.5Px black !important;
+                      box-shadow: 0 0 0 0.5Px rgb(255, 255, 255) !important;
                     }
                   }
                   .capacity-num{
                     text-align: left;
                     white-space: nowrap;
                     font: 9Px SourceHanSansCN-Bold;
-                    color: black;
+                    color: rgb(255, 255, 255);
                   }
                 }
               }
@@ -340,11 +340,11 @@
             .info-footer{
               .footer-line{
                 height: 0.5Px;
-                background-color: black;
+                background-color: rgb(255, 255, 255);
               }
               .footer-title{
                 font: 9Px Source Han Sans;
-                color: rgb(181, 181, 181);
+                color: rgb(73, 73, 73);
                 text-align: right;
               }
             }
@@ -372,15 +372,15 @@
         margin-top: 10Px;
         width: 100%;
         height: calc(22% - 10Px);
-        background-color: rgba(255, 255, 255, 0.30);
+        background-color: rgba(0, 0, 0, 0.3);
         position: relative;
         transition: 0.2s;
         &:hover{
           cursor: pointer;
-          background-color: rgba(255, 255, 255, 0.50);
+          background-color: rgba(0, 0, 0, 0.5);
         }
         &:active{
-          background-color: rgba(255, 255, 255, 0.30);
+          background-color: rgba(0, 0, 0, 0.3);
         }
         .upload{
           width: 100%;
@@ -421,7 +421,7 @@
             font-weight: lighter;
           }
         }
-        $uploadColor: rgb(255, 255, 255, 0.1);
+        $uploadColor: rgba(0, 0, 0, 0.1);
         .upload-animation{
           width: 100%;
           height: 100%;
@@ -432,7 +432,7 @@
           position: absolute;
           overflow: hidden;
           pointer-events: none;
-          background: linear-gradient(135deg, #0000 25%, $uploadColor 0, $uploadColor 50%, #0000 0, #0000 75%, $uploadColor 0);
+          background: linear-gradient(135deg, #ffffff00 25%, $uploadColor 0, $uploadColor 50%, #ffffff00 0, #ffffff00 75%, $uploadColor 0);
           background-size: 15px 15px;
           animation: upload-background 20s linear infinite;
           @keyframes upload-background {
@@ -452,7 +452,7 @@
           .animation{
             width: 10%;
             height: 1Px;
-            background-color: black;
+            background-color: rgb(255, 255, 255);
             position: absolute;
             top: 0;
             left: 10%;

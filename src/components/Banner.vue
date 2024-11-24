@@ -165,7 +165,7 @@
                     cursor: pointer;
                     .selector-style{
                         height: 0.3vw;
-                        background-color: black;
+                        background-color: white;
                         opacity: 1;
                     }
                 }
@@ -179,7 +179,7 @@
                 .selector-style-active{
                     width: 4.5vw;
                     height: 0.3vw;
-                    background-color: black;
+                    background-color: white;
                     opacity: 1;
                     transition-delay: 0.05s;
                 }
@@ -196,9 +196,9 @@
             left: 0;
             .banner-title{
                 padding: 0.1vw 4vw 0.1vw 0.2vw;
-                background-color: black;
+                background-color: white;
                 font: 0.65vw Geometos;
-                color: white;
+                color: black;
             }
             .banner-timer{
                 margin-right: -8px;
@@ -208,19 +208,19 @@
                 .line{
                     width: 9vw;
                     height: 0.5px;
-                    background-color: black;
+                    background-color: white;
                 }
                 .timer{
                     width: 0.8vw;
                     height: 0.8vw;
-                    border: 1px solid black;
+                    border: 1px solid white;
                     position: relative;
                     right: -0.6vw;
                     transition: 0s;
                     .timer-animation{
                         width: 0px;
                         height: 0px;
-                        background-color: black;
+                        background-color: white;
                         position: absolute;
                         top: 50%;
                         left: 50%;
@@ -250,8 +250,8 @@
             width: 4vw;
             height: 4vw;
             border: {
-                right: 1px solid black;
-                bottom: 1px solid black;
+                right: 1px solid white;
+                bottom: 1px solid white;
             };
             position: absolute;
             right: -0.9vw;

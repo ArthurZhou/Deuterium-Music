@@ -49,7 +49,7 @@
       .mode-type{
         width: 250px;
         height: 100px;
-        background-color: rgba(255, 255, 255, 0.35);
+        background-color: rgba(70, 70, 70, 0.35);
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -61,9 +61,9 @@
           width: 0;
           height: 100px;
           border: {
-            top: 1px solid black;
-            left: 1px solid black;
-            bottom: 1px solid black;
+            top: 1px solid rgb(255, 255, 255);
+            left: 1px solid rgb(255, 255, 255);
+            bottom: 1px solid rgb(255, 255, 255);
           };
           position: absolute;
           left: 0;
@@ -76,9 +76,9 @@
           width: 0;
           height: 100px;
           border: {
-            top: 1px solid black;
-            right: 1px solid black;
-            bottom: 1px solid black;
+            top: 1px solid rgb(255, 255, 255);
+            right: 1px solid rgb(255, 255, 255);
+            bottom: 1px solid rgb(255, 255, 255);
           };
           position: absolute;
           right: 0;
@@ -112,7 +112,7 @@
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          color: black;
+          color: rgb(255, 255, 255);
           .type-title{
             font: 20px SourceHanSansCN-Bold;
           }

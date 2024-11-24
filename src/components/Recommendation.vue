@@ -72,10 +72,14 @@
 </template>
 
 <style scoped lang="scss">
+    svg {
+        filter: invert(100%);
+    }
+
   .recommendation{
     width: 27vw;
     height: 13.6vw;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(117, 117, 117, 0.35);
     display: flex;
     flex-direction: row;
     position: relative;
@@ -88,6 +92,7 @@
         position: relative;
         display: flex;
         align-items: center;
+        color: white;
         .rec-title-border1{
             width: 2.2vw;
             height: 2.2vw;
@@ -108,7 +113,7 @@
             font-weight: bolder;
             color: transparent;
             -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: black;
+            -webkit-text-stroke-color: rgb(255, 255, 255);
         }
         .show-more{
             animation: show-more 0.1s;
@@ -140,7 +145,7 @@
         .rec-play-background{
             width: 3.5vw;
             height: 3.5vw;
-            background: linear-gradient(135deg, #0000 25%, #000 0, #000 50%, #0000 0, #0000 75%, #000 0);
+            background: linear-gradient(135deg, #ffffff00 25%, #ffffff 0, #ffffff 50%, #ffffff00 0, #ffffff00 75%, #ffffff 0);
             background-size:5px 5px;
             opacity: 0.7;
             position: relative;
@@ -163,7 +168,7 @@
             .rec-play-border{
                 width: 0.4vw;
                 height: 0.4vw;
-                background-color: black;
+                background-color: rgb(255, 255, 255);
                 position: absolute;
             }
             $borderOffset: -0.1vw;
@@ -196,13 +201,14 @@
         align-items: center;
         .rec-date{
             font: 4.7vw Gilroy-ExtraBold;
+            color: white;
         }
     }
     .rec-background{
         width: 0.7vw;
         height: 0.7vw;
         border-radius: 50%;
-        background-color: rgba(204, 204, 204, 0.7);
+        background-color: rgba(55, 55, 55, 0.7);
         position: absolute;
         top: 1vw;
         right: 1vw;

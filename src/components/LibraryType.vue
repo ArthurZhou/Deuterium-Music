@@ -169,7 +169,7 @@
             span{
                 margin-right: 20Px;
                 font: 16Px SourceHanSansCN-Bold;
-                color: rgb(78, 78, 78);
+                color: rgb(150, 150, 150);
                 white-space: nowrap;
                 transition: 0.2s;
                 &:hover{
@@ -178,7 +178,7 @@
                 }
             }
             .option-selected{
-                color: black;
+                color: rgb(255, 255, 255);
             }
         }
         .option-tracker{
@@ -195,7 +195,7 @@
             }
             .tracker{
                 height: 3Px;
-                background-color: black;
+                background-color: rgb(255, 255, 255);
                 position: absolute;
                 top: 50%;
                 transform: translateY(-50%);
@@ -233,7 +233,7 @@
             margin-right: 10Px;
             font: 12Px SourceHanSansCN-Bold;
             font-weight: bold;
-            color: rgb(78, 78, 78);
+            color: rgb(167, 167, 167);
             white-space: nowrap;
             // transition: 0.2s;
             &:hover{
@@ -242,7 +242,7 @@
             }
         }
         .option-selected{
-            color: black;
+            color: rgb(255, 255, 255);
         }
         .library-edit{
             margin-right: 6Px;
@@ -252,7 +252,7 @@
         }
         .refresh{
             &:hover{
-                color: black;
+                color: rgb(255, 255, 255);
             }
         }
     }

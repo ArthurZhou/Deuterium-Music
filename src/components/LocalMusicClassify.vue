@@ -33,16 +33,16 @@
     &::-webkit-scrollbar {
       width: 5px;
       height: 10px;
-      background-color: rgba(0, 0, 0, 0);
+      background-color: rgba(255, 255, 255, 0);
     }
     &::-webkit-scrollbar-thumb {
-      background-color: rgba(0, 0, 0, 0.0);
+      background-color: rgba(255, 255, 255, 0);
     }
     &::-webkit-scrollbar-track {
       display: none;
     }
     &:hover::-webkit-scrollbar-thumb{
-      background-color: rgba(0, 0, 0, 0.04);
+      background-color: rgba(255, 255, 255, 0.04);
     }
     .list-item{
         padding: 8Px;
@@ -54,7 +54,7 @@
           content: '';
           width: 100%;
           height: 100%;
-          background-color: rgba(0, 0, 0, 0.05);
+          background-color: rgba(255, 255, 255, 0.05);
           position: absolute;
           top: 0;
           left: -100%;
@@ -87,7 +87,7 @@
           align-items: flex-start;
           .item-name{
             font: 15Px SourceHanSansCN-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
             text-align: left;
             overflow: hidden;
             display: -webkit-box;

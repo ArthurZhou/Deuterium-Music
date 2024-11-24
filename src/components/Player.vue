@@ -199,7 +199,7 @@
             max-height: 38vh;
             object-fit: cover;
             vertical-align: bottom;
-            box-shadow: 0 0 8Px 0 rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 8Px 0 rgba(255, 255, 255, 0.05);
             transform: scale(1.03);
             animation: cover-in 0.3s 0.65s cubic-bezier(0.4, 0, 0.12, 1) forwards;
             @keyframes cover-in {
@@ -228,8 +228,8 @@
           top: 1vh;
           left: 1vh;
           border: {
-            top: $boderpx solid black;
-            left: $boderpx solid black;
+            top: $boderpx solid rgb(255, 255, 255);
+            left: $boderpx solid rgb(255, 255, 255);
           };
           animation: border1 0.3s 0.65s cubic-bezier(0.4, 0, 0.12, 1) forwards;
           @keyframes border1 {
@@ -241,8 +241,8 @@
           top: 1vh;
           right: 1vh;
           border: {
-            top: $boderpx solid black;
-            right: $boderpx solid black;
+            top: $boderpx solid rgb(255, 255, 255);
+            right: $boderpx solid rgb(255, 255, 255);
           };
           animation: border2 0.2s 0.65s cubic-bezier(0.4, 0, 0.12, 1) forwards;
           @keyframes border2 {
@@ -254,8 +254,8 @@
           bottom: 1vh;
           right: 1vh;
           border: {
-            bottom: $boderpx solid black;
-            right: $boderpx solid black;
+            bottom: $boderpx solid rgb(255, 255, 255);
+            right: $boderpx solid rgb(255, 255, 255);
           };
           animation: border3 0.3s 0.65s cubic-bezier(0.4, 0, 0.12, 1) forwards;
           @keyframes border3 {
@@ -267,8 +267,8 @@
           bottom: 1vh;
           left: 1vh;
           border: {
-            bottom: $boderpx solid black;
-            left: $boderpx solid black;
+            bottom: $boderpx solid rgb(255, 255, 255);
+            left: $boderpx solid rgb(255, 255, 255);
           };
           animation: border4 0.3s 0.65s cubic-bezier(0.4, 0, 0.12, 1) forwards;
           @keyframes border4 {
@@ -315,7 +315,7 @@
           .music-name-lable{
             width: 100%;
             height: 2.9vh;
-            background-color: black;
+            background-color: rgb(255, 255, 255);
             transition: 0.3s cubic-bezier(.22,.89,.58,.99);
             transform: translateX(calc(-100% + 5Px));
           }
@@ -327,7 +327,7 @@
             font-family: SourceHanSansCN-Bold;
             font-weight: bold;
             font-size: 2.4vh;
-            color: black;
+            color: rgb(255, 255, 255);
           }
           .music-name-in{
             opacity: 0;
@@ -351,9 +351,9 @@
             }
           }
           .music-author-lable-video{
-            border: 0.5Px solid rgb(0, 0, 0);
+            border: 0.5Px solid rgb(255, 255, 255);
             &::after{
-              background-color: rgb(0, 0, 0);
+              background-color: rgb(255, 255, 255);
             }
           }
           .music-author{
@@ -363,7 +363,7 @@
                 transition: 0.2s;
                 &:hover{
                   cursor: pointer;
-                  color: black !important;
+                  color: rgb(255, 255, 255) !important;
                 }
             }
           }
@@ -382,7 +382,7 @@
             justify-content: space-between;
             align-items: center;
             font: 1.5vh Bender-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
           }
           .process{
               width: 100%;
@@ -391,7 +391,7 @@
               .music-progress{
                 width: 100% !important;
                 height: 1.3vh !important;
-                box-shadow: 0 0 0 0.5Px black;
+                box-shadow: 0 0 0 0.5Px rgb(255, 255, 255);
                 transition: 0.2s;
               }
           }
@@ -405,6 +405,7 @@
           svg{
             width: 5vh;
             height: 5vh;
+            filter: invert(100%);
             transition: 0.2s;
             &:hover{
                 cursor: pointer;
@@ -421,18 +422,18 @@
             position: relative;
             .volume-slider{
               height: 1.3vh !important;
-              box-shadow: 0 0 0 0.5Px black !important;
+              box-shadow: 0 0 0 0.5Px rgb(255, 255, 255) !important;
             }
             .voluem-outline{
               width: 100%;
               height: 100%;
-              border: 1Px solid black;
+              border: 1Px solid rgb(255, 255, 255);
               position: absolute;
             }
             .voluem-content{
               width: 46%;
               height: 100%;
-              background-color: black;
+              background-color: rgb(255, 255, 255);
               position: absolute;
             }
           }
@@ -442,7 +443,7 @@
             justify-content: space-between;
             align-items: center;
             font: 1.5vh Bender-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
           }
         }
       }
@@ -459,6 +460,7 @@
           margin-top: 3vh;
           width: 2.5vh;
           height: 2.5vh;
+          filter: invert(100%);
         }
       }
     }
@@ -474,7 +476,7 @@
     .border{
       width: 1.5vh;
       height: 1.5vh;
-      background-color: black;
+      background-color: rgb(255, 255, 255);
       position: absolute;
       z-index: 100;
     }

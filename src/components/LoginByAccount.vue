@@ -159,7 +159,7 @@
         align-items: center;
         label{
           font: 2.2vh SourceHanSansCN-Bold;
-          color: black;
+          color: rgb(255, 255, 255);
         }
         .input-container{
           transition: 0.2s ease-out;
@@ -167,17 +167,17 @@
             margin-right: 1vh;
             width: 6vh;
             font-size: 2.7vh;
-            color: black;
+            color: rgb(255, 255, 255);
             font-style: italic;
             border: none;
-            border-right: 0.5px solid black;
+            border-right: 0.5px solid rgb(255, 255, 255);
             background: none;
             outline: none;
           }
           .account-input{
             width: 30.2vh;
             font-size: 2.7vh;
-            color: black;
+            color: rgb(255, 255, 255);
             font-style: italic;
             border: none;
             background: none;
@@ -193,7 +193,7 @@
         position: relative;
         label{
           font: 2.2vh SourceHanSansCN-Bold;
-          color: black;
+          color: rgb(255, 255, 255);
         }
         .password-input{
           transition: 0.2s ease-out;
@@ -202,7 +202,7 @@
           font-size: 2.7vh;
           font-style: italic;
           // letter-spacing: 2px;
-          color: black;
+          color: rgb(255, 255, 255);
           border: none;
           background: none;
           outline: none;
@@ -223,7 +223,7 @@
           }
           .password-line{
             transition: 0.2s ease-out;
-            background-color: black;
+            background-color: rgb(0, 0, 0);
             width: 33vh;
             height: 0.5px;
           }
@@ -259,14 +259,14 @@
       .login-button{
         padding: 0.8vh 0;
         width: 30vh;
-        border: 1px solid black;
+        border: 1px solid rgb(255, 255, 255);
         font: 14px SourceHanSansCN-Bold;
-        color: black;
+        color: rgb(255, 255, 255);
         position: relative;
         &:hover{
           cursor: pointer;
-          background-color: black;
-          color: white;
+          background-color: rgb(255, 255, 255);
+          color: rgb(0, 0, 0);
           &::before, &::after{
             opacity: 1;
           }
@@ -288,11 +288,11 @@
           transition: 0.1s;
         }
         &::before{
-          background: linear-gradient(to left, black 20%, rgba(0, 0, 0, 0.05));
+          background: linear-gradient(to left, rgb(255, 255, 255) 20%, rgba(255, 255, 255, 0.05));
           left: -50px;
         }
         &::after{
-          background: linear-gradient(to right, black 20%, rgba(0, 0, 0, 0.05));
+          background: linear-gradient(to right, rgb(255, 255, 255) 20%, rgba(255, 255, 255, 0.05));
           right: -50px;
         }
       }

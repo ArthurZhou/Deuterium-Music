@@ -36,8 +36,8 @@
     padding: 95Px 45Px 60Px 45Px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(176, 209, 217, 0.9) -20%,rgba(176, 209, 217, 0.4) 50%,rgba(176, 209, 217, 0.9) 120%);
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(0, 0, 0, 0.9) -20%,rgba(40, 47, 49, 0.4) 50%,rgba(0, 0, 0, 0.9) 120%);
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,14 +65,14 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(255, 255, 255, 0.3);
+      background: rgba(0, 0, 0, 0.3);
     }
     .player-container{
       padding: 16Px 12Px;
       padding-bottom: 4vh;
       width: 0;
       height: 0;
-      background-color: rgba(255, 255, 255, 0.35);
+      background-color: rgba(0, 0, 0, 0.35);
       opacity: 0;
       animation: player-in 0.7s 0.2s cubic-bezier(0.4, 0, 0.12, 1) forwards;
       @keyframes player-in {
@@ -91,12 +91,12 @@
       }
     }
     .player-blur{
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: rgba(0, 0, 0, 0.2);
       backdrop-filter: blur(4px);
       transform: translateZ(0);
     }
     .cover-blur{
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: rgba(0, 0, 0, 0.2);
       transform: translateZ(0);
     }
     .lyric-container{
@@ -128,7 +128,7 @@
   .back-video{
     width: 100%;
     height: 100%;
-    background: black;
+    background: rgb(255, 255, 255);
     position: fixed;
     top: 0;
     left: 0;

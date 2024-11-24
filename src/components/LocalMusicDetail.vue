@@ -167,13 +167,13 @@
           }
         }
         .cover-shadow{
-          border: 0.5Px solid rgb(218, 218, 218);
-          box-shadow: 0 0 6Px 1Px rgba(0, 0, 0, 0.03);
+          border: 0.5Px solid rgb(41, 41, 41);
+          box-shadow: 0 0 6Px 1Px rgba(255, 255, 255, 0.03);
         }
         .local-music-title{
           margin: 4Px 0;
           font: 20Px SourceHanSansCN-Bold;
-          color: black;
+          color: rgb(255, 255, 255);
           overflow: hidden;
           display: -webkit-box;
           -webkit-box-orient: vertical;
@@ -190,16 +190,16 @@
         &::-webkit-scrollbar {
           width: 5px;
           height: 10px;
-          background-color: rgba(0, 0, 0, 0);
+          background-color: rgba(255, 255, 255, 0);
         }
         &::-webkit-scrollbar-thumb {
-          background-color: rgba(0, 0, 0, 0.0);
+          background-color: rgba(255, 255, 255, 0);
         }
         &::-webkit-scrollbar-track {
           display: none;
         }
         &:hover::-webkit-scrollbar-thumb{
-          background-color: rgba(0, 0, 0, 0.04);
+          background-color: rgba(255, 255, 255, 0.04);
         }
         .list-item{
           padding: 12Px 8Px;
@@ -210,7 +210,7 @@
           transition: 0.2s;
           &:hover{
             cursor: default;
-            background-color: rgba(0, 0, 0, 0.045);
+            background-color: rgba(255, 255, 255, 0.045);
           }
           .item-title{
             width: 50%;
@@ -237,7 +237,7 @@
               align-items: flex-start;
               .item-name{
                 font: 15Px SourceHanSansCN-Bold;
-                color: black;
+                color: rgb(255, 255, 255);
                 overflow: hidden;
                 text-align: left;
                 overflow: hidden;
@@ -259,7 +259,7 @@
                 }
                 .format{
                   font: 10Px Bender-Bold;
-                  color: black;
+                  color: rgb(255, 255, 255);
                 }
               }
             }
@@ -272,7 +272,7 @@
             justify-content: space-between;
             span{
                 font: 14Px SourceHanSansCN-Bold;
-                color: black;
+                color: rgb(255, 255, 255);
             }
             .item-author{
               width: 70%;
@@ -299,7 +299,7 @@
             margin-bottom: 10Px;
         }
         .list-item-playing{
-            background-color: rgba(0, 0, 0, 0.045);
+            background-color: rgba(255, 255, 255, 0.045);
         }
       }
     }

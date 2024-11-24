@@ -40,6 +40,7 @@
         cursor: pointer;
       }
       svg{
+        filter: invert(100%);
         width: 18Px;
         height: 18Px;
       }

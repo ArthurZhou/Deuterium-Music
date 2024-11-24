@@ -524,6 +524,7 @@ const setCustomFont = () => {
             height: 32Px;
             float: left;
             transition: 0.2s;
+            filter: invert(100%);
 
             &:hover {
                 cursor: pointer;
@@ -541,12 +542,12 @@ const setCustomFont = () => {
 
         .setting-title {
             font: 17Px SourceHanSansCN-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
 
             .save {
                 font-size: 15px;
                 padding: 6px;
-                background-color: rgba(255, 255, 255, 0.35);
+                background-color: rgba(0, 0, 0, 0.35);
                 transition: 0.1s;
 
                 &:hover {
@@ -574,7 +575,7 @@ const setCustomFont = () => {
 
         .settings-title {
             font-family: SourceHanSansCN-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
             text-align: left;
         }
 
@@ -582,7 +583,7 @@ const setCustomFont = () => {
             padding: 10px 40px;
             width: 100%;
             height: 100px;
-            background-color: rgba(255, 255, 255, 0.35);
+            background-color: rgba(0, 0, 0, 0.35);
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -610,7 +611,7 @@ const setCustomFont = () => {
                     .user-name {
                         font: 20px Source Han Sans;
                         font-weight: bold;
-                        color: black;
+                        color: rgb(255, 255, 255);
                     }
 
                     .user-vip {
@@ -626,7 +627,7 @@ const setCustomFont = () => {
             .logout {
                 font: 14Px SourceHanSansCN-Bold;
                 font-weight: bold;
-                color: black;
+                color: rgb(255, 255, 255);
                 transition: 0.2s;
 
                 &:hover {
@@ -649,9 +650,8 @@ const setCustomFont = () => {
                 .item-title {
                     margin: 0;
                     font: 20Px SourceHanSansCN-Bold;
-                    color: black;
+                    color: rgb(255, 255, 255);
                     font-family: SourceHanSansCN-Bold;
-                    color: black;
                     text-align: left;
                 }
 
@@ -660,7 +660,7 @@ const setCustomFont = () => {
                     margin-bottom: 25px;
                     width: 100%;
                     height: 0.5px;
-                    background-color: rgba(0, 0, 0, 0.2);
+                    background-color: rgba(255, 255, 255, 0.2);
                 }
 
                 .item-options {
@@ -672,11 +672,12 @@ const setCustomFont = () => {
                         flex-direction: row;
                         align-items: center;
                         justify-content: space-between;
+                        color: white;
 
                         .option-name {
                             font-family: SourceHanSansCN-Bold;
                             font-size: 16px;
-                            color: black;
+                            color: rgb(255, 255, 255);
                             text-align: left;
                         }
 
@@ -686,8 +687,8 @@ const setCustomFont = () => {
                             width: 200px;
                             height: 34px;
                             padding: 5px 1px;
-                            background-color: rgba(255, 255, 255, 0.35);
-                            color: black;
+                            background-color: rgba(0, 0, 0, 0.35);
+                            color: rgb(255, 255, 255);
                             border: none;
                             outline: none;
                             appearance: none;
@@ -698,7 +699,7 @@ const setCustomFont = () => {
                             &:hover {
                                 cursor: pointer;
                                 opacity: 0.8;
-                                box-shadow: 0 0 0 1px black;
+                                box-shadow: 0 0 0 1px rgb(255, 255, 255);
                             }
                         }
 
@@ -707,7 +708,8 @@ const setCustomFont = () => {
                         }
 
                         option {
-                            background-color: rgba(255, 255, 255, 0.35);
+                            background-color: rgba(0, 0, 0, 0.35);
+                            color: white;
                             border: none;
                             outline: none;
                         }
@@ -734,11 +736,12 @@ const setCustomFont = () => {
                             }
 
                             .toggle-off {
-                                background-color: rgba(255, 255, 255, 0.35);
+                                color: white;
+                                background-color: rgba(0, 0, 0, 0.35);
                             }
 
                             .toggle-on {
-                                background-color: black;
+                                background-color: rgb(255, 255, 255);
                                 position: absolute;
                                 top: 0;
                                 left: 0;
@@ -746,7 +749,7 @@ const setCustomFont = () => {
                             }
 
                             .toggle-on-in {
-                                color: white;
+                                color: rgb(0, 0, 0);
                                 background-color: transparent;
                             }
                         }
@@ -755,13 +758,13 @@ const setCustomFont = () => {
                             margin-right: 1px;
                             padding: 5px 10px;
                             width: 200px;
-                            background-color: rgba(255, 255, 255, 0.35);
+                            background-color: rgba(0, 0, 0, 0.35);
                             font: 13px SourceHanSansCN-Bold;
 
                             &:hover {
                                 cursor: pointer;
                                 opacity: 0.8;
-                                box-shadow: 0 0 0 1px black;
+                                box-shadow: 0 0 0 1px rgb(255, 255, 255);
                             }
                         }
 
@@ -773,9 +776,9 @@ const setCustomFont = () => {
                             .selected-folder {
                                 width: 50vw;
                                 height: 30px;
-                                background-color: rgba(255, 255, 255, 0.35);
+                                background-color: rgba(0, 0, 0, 0.35);
                                 font: 13px SourceHanSansCN-Bold;
-                                color: black;
+                                color: rgb(255, 255, 255);
                                 line-height: 30px;
                                 overflow: hidden;
                             }
@@ -785,14 +788,14 @@ const setCustomFont = () => {
                                 margin-left: 15px;
                                 padding: 5px 15px;
                                 font: 13px SourceHanSansCN-Bold;
-                                color: black;
-                                background-color: rgba(255, 255, 255, 0.35);
+                                color: rgb(255, 255, 255);
+                                background-color: rgba(0, 0, 0, 0.35);
                                 transition: 0.2s;
 
                                 &:hover {
                                     cursor: pointer;
                                     opacity: 0.8;
-                                    box-shadow: 0 0 0 1px black;
+                                    box-shadow: 0 0 0 1px rgb(255, 255, 255);
                                 }
                             }
                         }
@@ -810,16 +813,16 @@ const setCustomFont = () => {
                                     margin-bottom: 10px;
                                     width: 50vw;
                                     height: 30px;
-                                    background-color: rgba(255, 255, 255, 0.35);
+                                    background-color: rgba(0, 0, 0, 0.35);
                                     font: 13px SourceHanSansCN-Bold;
-                                    color: black;
+                                    color: rgb(255, 255, 255);
                                     line-height: 30px;
                                     overflow: hidden;
                                 }
 
                                 .tip {
                                     font: 10px SourceHanSansCN-Bold;
-                                    color: black;
+                                    color: rgb(255, 255, 255);
                                     text-align: left;
                                 }
                             }
@@ -829,20 +832,20 @@ const setCustomFont = () => {
                                 margin-left: 15px;
                                 padding: 5px 15px;
                                 font: 13px SourceHanSansCN-Bold;
-                                color: black;
-                                background-color: rgba(255, 255, 255, 0.35);
+                                color: rgb(255, 255, 255);
+                                background-color: rgba(0, 0, 0, 0.35);
                                 transition: 0.2s;
 
                                 &.selected {
-                                    color: white;
-                                    background-color: black;
-                                    box-shadow: 0 0 0 1px black;
+                                    color: rgb(0, 0, 0);
+                                    background-color: rgb(255, 255, 255);
+                                    box-shadow: 0 0 0 1px rgb(255, 255, 255);
                                 }
 
                                 &:hover {
                                     cursor: pointer;
                                     opacity: 0.8;
-                                    box-shadow: 0 0 0 1px black;
+                                    box-shadow: 0 0 0 1px rgb(255, 255, 255);
                                 }
                             }
                         }
@@ -851,9 +854,9 @@ const setCustomFont = () => {
                             .custom-font-path {
                                 width: 50vw;
                                 height: 30px;
-                                background-color: rgba(255, 255, 255, 0.35);
+                                background-color: rgba(0, 0, 0, 0.35);
                                 font: 13px SourceHanSansCN-Bold;
-                                color: black;
+                                color: rgb(255, 255, 255);
                                 line-height: 30px;
                                 overflow: hidden;
                             }
@@ -867,7 +870,7 @@ const setCustomFont = () => {
 
                     .shortcuts-title {
                         font: 14px SourceHanSansCN-Bold;
-                        color: black;
+                        color: rgb(255, 255, 255);
                         display: flex;
                         flex-direction: row;
                         align-items: center;
@@ -890,7 +893,7 @@ const setCustomFont = () => {
 
                     .shortcuts {
                         font: 14px SourceHanSansCN-Bold;
-                        color: black;
+                        color: rgb(255, 255, 255);
                         display: flex;
                         flex-direction: row;
                         display: flex;
@@ -902,7 +905,7 @@ const setCustomFont = () => {
                             margin-top: 15px;
                             margin-right: 15px;
                             padding: 6px;
-                            background-color: rgba(255, 255, 255, 0.35);
+                            background-color: rgba(0, 0, 0, 0.35);
                         }
 
                         .shortcut-name {
@@ -920,7 +923,7 @@ const setCustomFont = () => {
                         }
 
                         .shortcut-selected {
-                            box-shadow: 0 0 0 1px black;
+                            box-shadow: 0 0 0 1px rgb(255, 255, 255);
                         }
                     }
 
@@ -929,14 +932,14 @@ const setCustomFont = () => {
                         margin-left: 1px;
                         width: 120px;
                         padding: 6px;
-                        background-color: rgba(255, 255, 255, 0.35);
+                        background-color: rgba(0, 0, 0, 0.35);
                         font: 14px SourceHanSansCN-Bold;
                         transition: 0.2s;
-                        color: black;
+                        color: rgb(255, 255, 255);
 
                         &:hover {
                             cursor: pointer;
-                            box-shadow: 0 0 0 1px black;
+                            box-shadow: 0 0 0 1px rgb(255, 255, 255);
                         }
                     }
                 }
@@ -961,13 +964,13 @@ const setCustomFont = () => {
 
             .version {
                 font: 14px Geometos;
-                color: black;
+                color: rgb(255, 255, 255);
             }
 
             .app-author {
                 margin-top: 10px;
                 font: 14px Bender-Bold;
-                color: black;
+                color: rgb(255, 255, 255);
 
                 &:hover {
                     cursor: pointer;
@@ -987,4 +990,5 @@ const setCustomFont = () => {
 .toggle-leave-to {
     transform: translateX(-100%)
 }
+
 </style>

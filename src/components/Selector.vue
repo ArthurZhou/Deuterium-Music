@@ -86,8 +86,8 @@ const changeOptionsVisible = () => (option.value = !option.value);
 .selector-option {
   position: absolute;
   overflow-y: overlay;
-  background: rgb(228, 240, 240);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  background: rgb(30, 31, 31);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.15);
   line-height: 25px;
   user-select: none;
   padding: 8px 0;
@@ -112,7 +112,7 @@ const changeOptionsVisible = () => (option.value = !option.value);
   width: 200px;
   height: 34px;
   font: 13px SourceHanSansCN-Bold;
-  background-image: linear-gradient(90deg, black, black);
+  background-image: linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
   background-repeat: repeat-y;
   background-position: -200px 0;
   padding: 0 16px;
@@ -120,13 +120,14 @@ const changeOptionsVisible = () => (option.value = !option.value);
   transition: background-position 0.2s, color 0.2s;
   cursor: pointer;
   text-align: center;
+  color: white;
   &:hover {
     background-position: 0 0;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   &-selected {
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
 }
 
@@ -152,7 +153,7 @@ const changeOptionsVisible = () => (option.value = !option.value);
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
   border-radius: 0;
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.15);
   transition: color 0.2s ease;
 }
 </style>

@@ -68,7 +68,7 @@
     .newest-song-title{
         margin-bottom: 1vw;
         font: 1.5vw SourceHanSansCN-Bold;
-        color: black;
+        color: rgb(255, 255, 255);
         text-align: left;
         position: absolute;
         top: -2.8vw;
@@ -85,7 +85,7 @@
             padding-bottom: 0.8vw;
             margin-bottom: 0.8vw;
             border: {
-                bottom: 1px solid black;
+                bottom: 1px solid rgb(255, 255, 255);
             };
             display: flex;
             flex-direction: row;
@@ -114,7 +114,7 @@
                     text-align: left;
                     .song-name{
                         font: 1.2vw SourceHanSansCN-Bold;
-                        color: black;
+                        color: rgb(255, 255, 255);
                         text-align: left;
                         overflow: hidden;
                         display: -webkit-box;
@@ -129,7 +129,7 @@
                             transition: 0.2s;
                             &:hover{
                                 cursor: pointer;
-                                color: black;
+                                color: rgb(255, 255, 255);
                             }
                         }
                     }

@@ -31,19 +31,19 @@
     }
     h1{
       margin: 0;
-      color: black;
+      color: rgb(255, 255, 255);
     }
     .rec-subtitle{
       margin: 4Px 0;
       font: 14Px SourceHanSansCN-Bold;
-      color: black;
+      color: rgb(255, 255, 255);
       display: block;
     }
     .rec-option{
       margin-top: 16Px;
       margin-bottom: 30Px;
       font: 16Px SourceHanSansCN-Bold;
-      color: black;
+      color: rgb(255, 255, 255);
       .play-all{
         margin-right: 20Px;
       }
@@ -55,7 +55,7 @@
           content: '';
           width: 0;
           height: 100%;
-          background-color: black;
+          background-color: rgb(255, 255, 255);
           position: absolute;
           top: 0;
           left: 50%;
@@ -66,7 +66,7 @@
         }
         &:hover{
           cursor: pointer;
-          color: white;
+          color: rgb(255, 255, 255);
           &::after{
             width: 100%;
             opacity: 1;

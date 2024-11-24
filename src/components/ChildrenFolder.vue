@@ -40,11 +40,11 @@
 
 <style scoped lang="scss">
   .list-item-open{
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: rgba(255, 255, 255, 0.02);
   }
   .list-item-selected{
-    background-color: rgba(0, 0, 0, 0.05) !important;
-    box-shadow: inset 0 0 0 0.5Px black;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    box-shadow: inset 0 0 0 0.5Px rgb(255, 255, 255);
 
   }
   .list-item{
@@ -54,7 +54,7 @@
     height: 100%;
     padding: 8Px 8Px;
     &:hover{
-        background-color: rgba(0, 0, 0, 0.02);
+        background-color: rgba(255, 255, 255, 0.02);
     }
     .folder{
         width: 100%;
@@ -94,7 +94,7 @@
             width: calc(100% - 65Px);
             .name{
                 font: 13Px SourceHanSansCN-Bold;
-                color: black;
+                color: rgb(255, 255, 255);
                 text-align: left;
                 overflow: hidden;
                 display: -webkit-box;

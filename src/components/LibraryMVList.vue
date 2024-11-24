@@ -47,7 +47,7 @@
         user-select: text;
         &:hover{
           cursor: pointer;
-          background-color: rgba(0, 0, 0, 0.047);
+          background-color: rgba(255, 255, 255, 0.047);
         }
         .item-title{
           width: 80%;
@@ -57,7 +57,7 @@
           .item-img{
             width: 96Px;
             height: 54Px;
-            border: 0.5Px solid rgba(0, 0, 0, 0.1);
+            border: 0.5Px solid rgba(255, 255, 255, 0.1);
             position: relative;
             img{
               width: 100%;
@@ -84,7 +84,7 @@
         }
       }
       .list-item-selected{
-        background-color: rgba(0, 0, 0, 0.047);
+        background-color: rgba(255, 255, 255, 0.047);
       }
     }
   }

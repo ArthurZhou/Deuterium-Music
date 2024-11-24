@@ -104,7 +104,7 @@
   .music-widget{
     width: 100%;
     height: 100%;
-    background-color: rgba(225, 240, 240, 1);
+    background-color: rgb(26, 28, 28);
     position: relative;
     display: flex;
     flex-direction: row;
@@ -127,13 +127,14 @@
         .music-progress{
             width: 100% !important;
             height: 2.5Px !important;
-            background-color: rgb(223, 223, 223);
+            background-color: rgba(67, 75, 81, 0.7);
+            backdrop-filter: blur(2px);
             transition: 0.2s;
         }
         .music-time{
             padding: 0 2Px;
             font: 9Px Bender-Bold;
-            color: white;
+            color: rgb(0, 0, 0);
             position: absolute;
             top: 0;
             left: 0;
@@ -150,7 +151,7 @@
             width: 45Px;
             height: 45Px;
             position: relative;
-            border: 0.5Px solid rgba(0, 0, 0, 0.1);
+            border: 0.5Px solid rgba(255, 255, 255, 0.1);
             img{
                 width: 100%;
                 height: 100%;
@@ -174,7 +175,7 @@
                 }
                 &:hover{
                     cursor: pointer;
-                    background-color: rgba(0, 0, 0, 0.5);
+                    background-color: rgba(36, 36, 36, 0.5);
                     .open-player-icon{
                         top: 50%;
                     }
@@ -200,7 +201,7 @@
             .music-name{
                 font: 14Px SourceHanSansCN-Bold;
                 font-weight: bold;
-                color: black;
+                color: rgb(255, 255, 255);
             }
             .music-author{
                 font: 10Px SourceHanSansCN-Bold;
@@ -209,7 +210,7 @@
                     transition: 0.2s;
                     &:hover{
                         cursor: pointer;
-                        color: black;
+                        color: rgb(255, 255, 255);
                     }
                 }
             }
@@ -228,6 +229,7 @@
                 width: 20Px;
                 height: 20Px;
                 transition: 0.2s;
+                filter: invert(100%);
                 &:hover{
                     cursor: pointer;
                 }
@@ -247,12 +249,12 @@
                 position: relative;
                 .volume-slider{
                     height: 7Px !important;
-                    box-shadow: 0 0 0 0.5Px black !important;
+                    box-shadow: 0 0 0 0.5Px rgb(255, 255, 255) !important;
                 }
                 .volume-process-outline{
                     width: 100%;
                     height: 100%;
-                    border: 1Px solid black;
+                    border: 1Px solid rgb(255, 255, 255);
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -260,7 +262,7 @@
                 .volume-process{
                     width: 64%;
                     height: 100%;
-                    background: black;
+                    background: rgb(255, 255, 255);
                     position: absolute;
                     top: 0;
                     left: -1Px;
@@ -277,7 +279,7 @@
                     }
                     .volume-lable{
                         margin-right: 6Px;
-                        color: rgb(106, 106, 106);
+                        color: rgb(184, 184, 184);
                     }
                 }
             }
@@ -291,6 +293,7 @@
                 margin-right: 22Px;
                 width: 20Px;
                 height: 20Px;
+                filter: invert(100%) grayscale(100%);
                 transition: 0.2s;
                 &:hover{
                     cursor: pointer;
@@ -313,7 +316,7 @@
         width: 5Px;
         height: 5Px;
         border-radius: 50%;
-        background-color: rgba(160, 160, 160, 0.7);
+        background-color: rgba(71, 71, 71, 0.7);
         position: absolute;
         top: 6Px;
         right: 6Px;

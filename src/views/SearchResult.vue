@@ -104,7 +104,7 @@
       }
       .search-title{
         font: 17Px SourceHanSansCN-Bold;
-        color: black;
+        color: rgb(255, 255, 255);
       }
       .router-last, .router-next{
         margin-right: 10Px;
@@ -133,7 +133,7 @@
           }
           .classify-title{
             font: 20Px SourceHanSansCN-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
             text-align: left;
           }
           .classify-content{
@@ -155,7 +155,7 @@
           margin-top: 15Px;
           .classify-title{
             font: 20Px SourceHanSansCN-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
             text-align: left;
           }
           .classify-content{

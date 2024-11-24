@@ -48,13 +48,13 @@
     position: relative;
     .title-logo{
       font: 28Px Gilroy-ExtraBold;
-      color: rgb(26, 26, 26);
+      color: rgb(255, 255, 255);
     }
     .title-player{
       width: 0;
       height: 8vh;
-      background-color: rgba(255, 255, 255, 0.2);
-      box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.02);
+      background-color: rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.02);
       backdrop-filter: blur(4px);
       position: absolute;
       top: 0;
@@ -90,7 +90,7 @@
           .music-name{
             margin-bottom: 0.5vh;
             font: 1.8vh SourceHanSansCN-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
           }
           .music-time{
             width: 100%;
@@ -101,13 +101,13 @@
               margin-left: 1px;
               width: 100% !important;
               height: 0.6vh !important;
-              box-shadow: 0 0 0 0.5Px black;
+              box-shadow: 0 0 0 0.5Px rgb(255, 255, 255);
               transition: 0.2s;
             }
             .remaining-time{
               width: 8vh;
               font: 1.5vh Bender-Bold;
-              color: black;
+              color: rgb(255, 255, 255);
               line-height: 1.5vh;
             }
           }

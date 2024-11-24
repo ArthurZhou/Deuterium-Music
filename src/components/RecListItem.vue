@@ -122,16 +122,16 @@
                 margin-right: 6px;
                 padding: 1px 0 1px 2px;
                 width: 20vw;
-                background-color: black;
+                background-color: rgb(255, 255, 255);
                 font: 0.7vw Geometos;
-                color: white;
+                color: rgb(0, 0, 0);
                 text-align: left;
                 white-space: nowrap;
             }
             .line{
                 width: 100%;
                 height: 1px;
-                background-color: rgb(176 176 176);
+                background-color: rgb(74, 74, 74);
             }
             .header-more{
                 width: 60px;
@@ -141,7 +141,7 @@
                 transition: 0.2s;
                 &:hover{
                     cursor: pointer;
-                    color: black;
+                    color: rgb(255, 255, 255);
                 }
             }
         }
@@ -149,7 +149,7 @@
             text-align: left;
             font: 2.1vw SourceHanSansCN-Bold;
             line-height: 2.5vw;
-            color: black;
+            color: rgb(255, 255, 255);
         }
     }
     .item-list{
@@ -166,12 +166,12 @@
                 transition: 0.2s;
                 &:hover{
                     cursor: pointer;
-                    box-shadow: 0 0 10Px 1Px rgba(0, 0, 0, 0.1);
+                    box-shadow: 0 0 10Px 1Px rgba(255, 255, 255, 0.1);
                 }
                 img{
                     width: 100%;
                     height: 100%;
-                    border: 1px solid rgba(0,0,0,0.04);
+                    border: 1px solid rgba(255, 255, 255, 0.04);
                     vertical-align: bottom;
                 }
             }
@@ -189,7 +189,7 @@
                 text-align: left;
                 font: 1.5vw SourceHanSansCN-Bold;
                 font-weight: bold;
-                color: black;
+                color: rgb(255, 255, 255);
                 overflow: hidden;
                 display: -webkit-box;
                 -webkit-box-orient:vertical;
@@ -198,7 +198,7 @@
                 transition: 0.2s;
                 &:hover{
                     cursor: pointer;
-                    color: rgba(43, 43, 43, 1);
+                    color: rgb(193, 193, 193);
                 }
             }
             .item-name-center{
@@ -210,7 +210,7 @@
                 font-weight: normal;
                 color: rgb(109, 109, 109);
                 &:hover{
-                    color: black;
+                    color: rgb(255, 255, 255);
                 }
             }
         }

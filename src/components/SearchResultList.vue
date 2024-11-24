@@ -42,12 +42,12 @@
                 img{
                     width: 100%;
                     height: 100%;
-                    border: 1px solid rgba(0,0,0,0.04);
+                    border: 1px solid rgba(255, 255, 255, 0.04);
                     vertical-align: bottom;
                     transition: 0.2s;
                     &:hover{
                         cursor: pointer;
-                        box-shadow: 0 0 10Px 1Px rgba(0, 0, 0, 0.1);
+                        box-shadow: 0 0 10Px 1Px rgba(255, 255, 255, 0.1);
                     }
                 }
             }
@@ -67,7 +67,7 @@
                 text-align: left;
                 font: 14px SourceHanSansCN-Bold;
                 font-weight: bold;
-                color: black;
+                color: rgb(255, 255, 255);
                 overflow: hidden;
                 display: -webkit-box;
                 -webkit-box-orient:vertical;
@@ -76,7 +76,7 @@
                 transition: 0.2s;
                 &:hover{
                     cursor: pointer;
-                    color: rgba(43, 43, 43, 1);
+                    color: rgb(199, 199, 199);
                 }
             }
             .item-name-center{

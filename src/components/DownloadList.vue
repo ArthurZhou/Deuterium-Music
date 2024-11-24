@@ -136,7 +136,7 @@
       flex-direction: row;
       align-items: center;
       font: 14Px SourceHanSansCN-Bold;
-      color: black;
+      color: rgb(255, 255, 255);
       position: relative;
       .download-start, .download-pause{
         padding: 1Px 6Px;
@@ -147,12 +147,12 @@
       }
       .selected{
         // background-color: black;
-        color: white;
+        color: rgb(0, 0, 0);
       }
       .tracker{
         width: 40Px;
         height: 100%;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         position: absolute;
         top: 0;
         left: 0;
@@ -185,19 +185,19 @@
         align-items: center;
         transition: 0.2s;
         &:hover{
-          background-color: rgba(0, 0, 0, 0.045);
+          background-color: rgba(255, 255, 255, 0.045);
         }
         .download-index{
           width: 30Px;
           font: 14Px Bender-Bold;
-          color: black;
+          color: rgb(255, 255, 255);
         }
         .download{
           width: 100%;
           .item-name{
             width: calc(100% - 50Px);
             font: 14Px SourceHanSansCN-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
             text-align: left;
             overflow: hidden;
             display: -webkit-box;
@@ -212,12 +212,12 @@
             .progress{
               width: 100% !important;
               height: 8Px !important;
-              background-color: rgba(0, 0, 0, 0.1);
+              background-color: rgba(255, 255, 255, 0.1);
             }
             .progress-num{
               width: 50Px;
               font: 12Px Bender-Bold;
-              color: black;
+              color: rgb(255, 255, 255);
             }
           }
         }
@@ -226,7 +226,7 @@
     .list-none{
       width: 100%;
       font: 16Px Bender-Bold;;
-      color: black;
+      color: rgb(255, 255, 255);
       position: absolute;
       top: 50%;
       transform: translateY(-50%);

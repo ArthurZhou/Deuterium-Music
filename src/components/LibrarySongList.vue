@@ -115,16 +115,16 @@
         &::-webkit-scrollbar {
           width: 5px;
           height: 10px;
-          background-color: rgba(0, 0, 0, 0);
+          background-color: rgba(255, 255, 255, 0);
         }
         &::-webkit-scrollbar-thumb {
-          background-color: rgba(0, 0, 0, 0.0);
+          background-color: rgba(255, 255, 255, 0);
         }
         &::-webkit-scrollbar-track {
           display: none;
         }
         &:hover::-webkit-scrollbar-thumb{
-          background-color: rgba(0, 0, 0, 0.04);
+          background-color: rgba(255, 255, 255, 0.04);
         }
         .list-item{
           padding: 12Px 8Px;
@@ -136,7 +136,7 @@
           user-select: text;
           &:hover{
             cursor: default;
-            background-color: rgba(0, 0, 0, 0.045);
+            background-color: rgba(255, 255, 255, 0.045);
           }
           .item-title{
             width: 50%;
@@ -146,6 +146,7 @@
             svg{
               width: 14Px;
               height: 14Px;
+              filter: invert(100%);
             }
             .item-state{
               width: 26Px;
@@ -159,7 +160,7 @@
               margin-left: 14Px;
               font: 14Px SourceHanSansCN-Bold;
               font-weight: bold;
-              color: black;
+              color: rgb(255, 255, 255);
               overflow: hidden;
               text-align: left;
               overflow: hidden;
@@ -178,7 +179,7 @@
             span{
               font: 14Px SourceHanSansCN-Bold;
               font-weight: bold;
-              color: black;
+              color: rgb(255, 255, 255);
             }
             .item-author{
               width: 70%;
@@ -205,7 +206,7 @@
           margin-bottom: 10Px;
         }
         .list-item-playing{
-          background-color: rgba(0, 0, 0, 0.045);
+          background-color: rgba(255, 255, 255, 0.045);
         }
         .list-item-disabled{
             opacity: 0.7;

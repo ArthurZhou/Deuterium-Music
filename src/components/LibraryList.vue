@@ -112,7 +112,7 @@
           content: '';
           width: 100%;
           height: 100%;
-          background-color: rgba(0, 0, 0, 0.05);
+          background-color: rgba(255, 255, 255, 0.05);
           position: absolute;
           top: 0;
           left: -100%;
@@ -128,7 +128,7 @@
           margin-right: 10Px;
           width: 50Px;
           height: 50Px;
-          border: 0.5Px solid rgb(233, 233, 233);
+          border: 0.5Px solid rgb(35, 35, 35);
           img{
               width: 100%;
               height: 100%;
@@ -141,7 +141,7 @@
           align-items: flex-start;
           .item-name{
             font: 15Px SourceHanSansCN-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
             text-align: left;
             overflow: hidden;
             display: -webkit-box;

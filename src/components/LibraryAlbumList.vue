@@ -59,7 +59,7 @@
             user-select: text;
             &:hover{
                 cursor: pointer;
-                background-color: rgba(0, 0, 0, 0.047);
+                background-color: rgba(255, 255, 255, 0.047);
             }
             .item-title{
                 width: 60%;
@@ -69,8 +69,8 @@
                 .item-img{
                     width: 56Px;
                     height: 56Px;
-                    border: 0.5Px solid rgba(0, 0, 0, 0.1);
-                    box-shadow: 4Px 0 2Px 0 rgba(0, 0, 0, 0.05);
+                    border: 0.5Px solid rgba(255, 255, 255, 0.1);
+                    box-shadow: 4Px 0 2Px 0 rgba(255, 255, 255, 0.05);
                     position: relative;
                     img{
                         width: 100%;
@@ -79,7 +79,7 @@
                     .album-back{
                         width: 54Px;
                         height: 54Px;
-                        background-color: black;
+                        background-color: rgb(255, 255, 255);
                         border-radius: 50%;
                         position: absolute;
                         z-index: -1;
@@ -96,7 +96,7 @@
                     span{
                         font: 14Px SourceHanSansCN-Bold;
                         font-weight: bold;
-                        color: black;
+                        color: rgb(255, 255, 255);
                         text-align: left;
                         overflow: hidden;
                         display: -webkit-box;

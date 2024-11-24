@@ -126,7 +126,7 @@
   .playlist-widget{
     width: 310Px;
     height: 0;
-    background-color: rgba(225, 240, 240, 1);
+    background-color: rgb(27, 29, 29);
     transition: 0.3s cubic-bezier(.19,.8,.49,.99);
     overflow: hidden;
     display: flex;
@@ -143,7 +143,7 @@
       .playlist-widget-info{
         .info-title{
           font: 16Px SourceHanSansCN-Bold;
-          color: black;
+          color: rgb(255, 255, 255);
         }
         .info-num{
           font: 12Px SourceHanSansCN-Bold;
@@ -168,7 +168,7 @@
       margin: 8Px 0;
       width: 92%;
       height: 0.5Px;
-      background-color: black;
+      background-color: rgb(255, 255, 255);
     }
     .playlist-widget-item{
       width: 100%;
@@ -179,16 +179,16 @@
       &::-webkit-scrollbar {
         width: 5px;
         height: 10px;
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(255, 255, 255, 0);
       }
       &::-webkit-scrollbar-thumb {
-        background-color: rgba(0, 0, 0, 0.0);
+        background-color: rgba(255, 255, 255, 0);
       }
       &::-webkit-scrollbar-track {
         display: none;
       }
       &:hover::-webkit-scrollbar-thumb{
-        background-color: rgba(0, 0, 0, 0.04);
+        background-color: rgba(255, 255, 255, 0.04);
       }
       .list-item{
         width: 100%;
@@ -199,7 +199,7 @@
         align-items: center;
         transition: 0.2s;
         &:hover{
-            background-color: rgba(0, 0, 0, 0.045);
+            background-color: rgba(255, 255, 255, 0.045);
         }
         .item-info{
           width: 240Px;
@@ -211,12 +211,13 @@
           word-break: break-all;
           svg{
             margin-right: 6Px;
+            filter: invert(100%);
             width: 14Px;
             height: 14Px;
           }
           .item-name{
             font: 14Px SourceHanSansCN-Bold;
-            color: black;
+            color: rgb(255, 255, 255);
           }
           .item-separator{
             font: 12Px SourceHanSansCN-Bold;
@@ -228,7 +229,7 @@
             transition: 0.2s;
             &:hover{
               cursor: pointer;
-              color: black;
+              color: rgb(255, 255, 255);
             }
           }
         }
@@ -241,7 +242,7 @@
         }
       }
       .list-item-playing{
-        background-color: rgba(0, 0, 0, 0.045);
+        background-color: rgba(255, 255, 255, 0.045);
       }
       .list-item-disabled{
           opacity: 0.8;

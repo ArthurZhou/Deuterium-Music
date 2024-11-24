@@ -133,7 +133,7 @@
             width: 100%;
             margin-bottom: 10Px;
             padding-bottom: 10Px;
-            border-bottom: 1Px solid black;
+            border-bottom: 1Px solid rgb(255, 255, 255);
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -152,7 +152,7 @@
                     margin-right: 10PX;
                     width: 40Px;
                     height: 40Px;
-                    border: 0.5Px solid rgba(0, 0, 0, 0.1);
+                    border: 0.5Px solid rgba(255, 255, 255, 0.1);
                     img{
                         width: 100%;
                         height: 100%;
@@ -163,7 +163,7 @@
                     text-align: left;
                     .item-name{
                         font: 15Px SourceHanSansCN-Bold;
-                        color: black;
+                        color: rgb(255, 255, 255);
                         overflow: hidden;
                         display: -webkit-box;
                         -webkit-box-orient: vertical;
@@ -186,7 +186,7 @@
             .item-check{
                 width: 10Px;
                 height: 10Px;
-                border: 1Px solid black;
+                border: 1Px solid rgb(255, 255, 255);
                 position: relative;
                 &:hover{
                     cursor: pointer;
@@ -201,7 +201,7 @@
                 }
             }
             .item-check-selected{
-                background-color: black;
+                background-color: rgb(255, 255, 255);
                 svg{
                     opacity: 1;
                 }
@@ -235,7 +235,7 @@
             }
             .item-name{
                 font: 16Px SourceHanSansCN-Bold;
-                color: black;
+                color: rgb(255, 255, 255);
                 white-space: nowrap;
             }
         }

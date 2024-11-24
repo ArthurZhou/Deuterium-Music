@@ -62,11 +62,11 @@
         display: flex;
         flex-direction: column;
         .list-item-open{
-          background-color: rgba(0, 0, 0, 0.02);
+          background-color: rgba(255, 255, 255, 0.02);
         }
         .list-item-selected{
-          background-color: rgba(0, 0, 0, 0.05) !important;
-          box-shadow: inset 0 0 0 0.5Px black;
+          background-color: rgba(255, 255, 255, 0.05) !important;
+          box-shadow: inset 0 0 0 0.5Px rgb(255, 255, 255);
         }
         .list-item{
           padding: 8Px;
@@ -92,7 +92,7 @@
               width: calc(100% - 75Px);
               .name{
                 font: 14Px SourceHanSansCN-Bold;
-                color: black;
+                color: rgb(255, 255, 255);
                 text-align: left;
                 overflow: hidden;
                 display: -webkit-box;

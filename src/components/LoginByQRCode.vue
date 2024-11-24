@@ -66,7 +66,7 @@
             width: 192,
             height: 192,
             color: {
-                dark: "#000000",
+                dark: "#ffffff",
                 light: "#00000000"
             }
         };
@@ -162,6 +162,7 @@
             }
             .qrcode-loading{
                 font: 18px Gilroy-ExtraBold;
+                color: white;
                 line-height: 26vh;
             }
         }
@@ -178,13 +179,13 @@
         }
         .qrcode-status{
             width: 0;
-            background-color: black;
+            background-color: rgb(255, 255, 255);
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
             font: 14px SourceHanSansCN-Bold;
-            color: rgba(255, 255, 255, 0);
+            color: rgba(0, 0, 0, 0);
             white-space: nowrap;
             opacity: 0;
             transition: 0.3s;
@@ -197,12 +198,12 @@
             animation: status 0.3s cubic-bezier(.13,.86,.51,.98) forwards;
         }
         .status-2{
-            background-color: black;
+            background-color: rgb(255, 255, 255);
             animation: status 0.3s cubic-bezier(.13,.86,.51,.98) forwards;
         }
         @keyframes status {
             0%{opacity: 1;}
-            100%{width: 100%;opacity: 1;color: rgba(255, 255, 255, 1);}
+            100%{width: 100%;opacity: 1;color: rgb(0, 0, 0);}
         }
 
         .border{
@@ -213,32 +214,32 @@
         $borderWidth: 2 + px;
         .border1{
             border: {
-                top: $borderWidth solid black;
-                left: $borderWidth solid black;
+                top: $borderWidth solid rgb(255, 255, 255);
+                left: $borderWidth solid rgb(255, 255, 255);
             }
             top: 0;
             left: 0;
         }
         .border2{
             border: {
-                top: $borderWidth solid black;
-                right: $borderWidth solid black;
+                top: $borderWidth solid rgb(255, 255, 255);
+                right: $borderWidth solid rgb(255, 255, 255);
             }
             top: 0;
             right: 0;
         }
         .border3{
             border: {
-                bottom: $borderWidth solid black;
-                right: $borderWidth solid black;
+                bottom: $borderWidth solid rgb(255, 255, 255);
+                right: $borderWidth solid rgb(255, 255, 255);
             }
             bottom: 0;
             right: 0;
         }
         .border4{
             border: {
-                bottom: $borderWidth solid black;
-                left: $borderWidth solid black;
+                bottom: $borderWidth solid rgb(255, 255, 255);
+                left: $borderWidth solid rgb(255, 255, 255);
             }
             bottom: 0;
             left: 0;
@@ -246,7 +247,7 @@
         .line{
             width: 40px;
             height: 1px;
-            background: linear-gradient(to right, rgb(0, 0, 0) 30%, rgba(0, 0, 0, 0.1));
+            background: linear-gradient(to right, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.1));
             position: absolute;
         }
         .line1{
@@ -271,7 +272,7 @@
         }
         .qrcode-text{
             font: 1vh Geometos;
-            color: black;
+            color: rgb(255, 255, 255);
             position: absolute;
             top: -1.2vh;
             left: 0.2vh;

@@ -197,7 +197,7 @@
     .menu-container{
       padding: 18Px 0;
       position: relative;
-      background-color: rgb(32, 32, 32);
+      background-color: rgb(203, 203, 203);
       transform: translateY(-100%);
       animation: menu-container-in 0.2s cubic-bezier(.3,.79,.55,.99) forwards;
       @keyframes menu-container-in {
@@ -211,13 +211,13 @@
           padding: 10Px 18Px;
           width: 100%;
           font: 13Px SourceHanSansCN-Bold;
-          color: white;
+          color: rgb(0, 0, 0);
           text-align: left;
           transition: 0.2s;
           z-index: 2;
           &:hover{
             cursor: pointer;
-            background-color: rgba(53, 53, 53, 0.7);
+            background-color: rgba(187, 187, 187, 0.7);
           }
           &:active{
             transform: scale(0.95);
@@ -232,7 +232,7 @@
       }
       .menu-style{
         position: absolute;
-        color: white;
+        color: rgb(0, 0, 0);
       }
       .menu-style1{
         top: 0;
@@ -252,7 +252,7 @@
       }
       .menu-style5{
         font: 35Px Gilroy-ExtraBold;
-        color: rgb(57, 57, 57);
+        color: rgb(192, 192, 192);
         position: absolute;
         top: 10Px;
         left: 50%;
@@ -266,12 +266,12 @@
       position: fixed;
       top: 0;
       left: 0;
-      background-color: rgba(0, 0, 0, 0.05);
+      background-color: rgba(255, 255, 255, 0.05);
       overflow: hidden;
       .playlist-container{
         width: 0;
         height: 0;
-        background-color: rgb(15, 15, 15);
+        background-color: rgb(238, 238, 238);
         position: absolute;
         top: 50%;
         left: 50%;
@@ -286,7 +286,7 @@
           display: inline-block;
           padding: 10Px 0;
           font: 16Px SourceHanSansCN-Bold;
-          color: white;
+          color: rgb(0, 0, 0);
           opacity: 0;
           animation: add-title-in 0.3s 0.5s forwards;
           @keyframes add-title-in {
@@ -310,21 +310,21 @@
             transition: 0.2s;
             &:hover{
               cursor: pointer;
-              background-color: rgba(53, 53, 53, 0.7);
+              background-color: rgba(195, 195, 195, 0.7);
             }
             input{
               padding: 4Px 8Px;
               width: 100%;
-              background-color: white;
+              background-color: rgb(0, 0, 0);
               outline: none;
-              border: 0.5Px solid white;
+              border: 0.5Px solid rgb(0, 0, 0);
               background-color: transparent;
-              color: white;
+              color: rgb(0, 0, 0);
               font: 16Px SourceHanSansCN-Bold;
               &::-webkit-input-placeholder{
                 font: 12Px Source Han Sans;
                 font-weight: bold;
-                color: rgb(180, 180, 180);
+                color: rgb(69, 69, 69);
               }
             }
             .checkbox{
@@ -336,7 +336,7 @@
                 margin-right: 5Px;
                 width: 10Px;
                 height: 10Px;
-                border: 0.5Px solid white;
+                border: 0.5Px solid rgb(0, 0, 0);
                 position: relative;
                 transition: 0.1s;
                 svg{
@@ -348,11 +348,11 @@
                 }
               }
               .box-selected{
-                background-color: white;
+                background-color: rgb(0, 0, 0);
               }
               .box-label{
                 font: 12Px SourceHanSansCN-Bold;
-                color: white;
+                color: rgb(0, 0, 0);
               }
             }
             .create-confirm, .create-cancel{
@@ -360,12 +360,12 @@
               margin-top: 20Px;
               width: 100%;
               font: 11Px SourceHanSansCN-Bold;
-              color: white;
+              color: rgb(0, 0, 0);
               text-align: center;
-              border: 1Px solid white;
+              border: 1Px solid rgb(0, 0, 0);
               &:hover{
-                color: black;
-                background-color: white;
+                color: rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0);
               }
             }
             .create-cancel{
@@ -375,7 +375,7 @@
               margin-right: 15Px;
               width: 45Px;
               height: 45Px;
-              border: 0.5Px solid rgb(69, 69, 69);
+              border: 0.5Px solid rgb(168, 168, 168);
               svg{
                 padding: 10Px;
                 width: 100%;
@@ -388,7 +388,7 @@
             }
             .list-name{
               font: 14Px SourceHanSansCN-Bold;
-              color: white;
+              color: rgb(0, 0, 0);
             }
           }
           .create-playlist-active{
@@ -408,7 +408,7 @@
         .add-style{
           width: 9Px;
           height: 9Px;
-          background-color: rgb(247, 247, 247);
+          background-color: rgb(0, 0, 0);
           position: absolute;
           opacity: 0;
           animation: add-style-in 0.4s forwards;
@@ -445,7 +445,7 @@
         }
         .add-style5{
           font: 55Px Gilroy-ExtraBold;
-          color: rgb(37, 37, 37);
+          color: rgb(207, 207, 207);
           position: absolute;
           top: 10Px;
           left: 20Px;

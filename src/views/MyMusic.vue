@@ -77,16 +77,16 @@
         &::-webkit-scrollbar {
           width: 5px;
           height: 10px;
-          background-color: rgba(0, 0, 0, 0);
+          background-color: rgba(255, 255, 255, 0);
         }
         &::-webkit-scrollbar-thumb {
-          background-color: rgba(0, 0, 0, 0.0);
+          background-color: rgba(255, 255, 255, 0);
         }
         &::-webkit-scrollbar-track {
           display: none;
         }
         &:hover::-webkit-scrollbar-thumb{
-          background-color: rgba(0, 0, 0, 0.04);
+          background-color: rgba(255, 255, 255, 0.04);
         }
       }
       .download-list{
@@ -105,8 +105,8 @@
       }
       .no-folder{
         font: 14px SourceHanSansCN-Bold;
-        color: black;
-        background-color: rgba(255, 255, 255, 0.35);
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.35);
         padding: 10px;
         transition: 0.2s;
         &:hover{
@@ -146,11 +146,11 @@
                 background: 
                 linear-gradient(
                   to bottom right,
-                  rgba(0, 0, 0, 0) 0%,
-                  rgba(0, 0, 0, 0) calc(50% - 0.5px),
-                  rgba(0, 0, 0, 0.8) 50%,
-                  rgba(0, 0, 0, 0) calc(50% + 0.5px),
-                  rgba(0, 0, 0, 0) 100%
+                  rgba(255, 255, 255, 0) 0%,
+                  rgba(255, 255, 255, 0) calc(50% - 0.5px),
+                  rgba(255, 255, 255, 0.8) 50%,
+                  rgba(255, 255, 255, 0) calc(50% + 0.5px),
+                  rgba(255, 255, 255, 0) 100%
               );
               animation: nodata-open1 0.6s cubic-bezier(.32,.81,.56,.98) forwards;
               @keyframes nodata-open1 {
@@ -160,7 +160,7 @@
             }
             .tip{
               font: 16Px Bender-Bold;
-              color: black;
+              color: rgb(255, 255, 255);
               white-space: nowrap;
               opacity: 0;
               animation: nodata-open2 0.1s 0.4s forwards;
@@ -190,7 +190,7 @@
         .border{
           width: 1.5vh;
           height: 1.5vh;
-          border: 1Px solid black;
+          border: 1Px solid rgb(255, 255, 255);
           position: absolute;
         }
         .border1{

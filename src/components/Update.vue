@@ -66,7 +66,7 @@
     .update-container{
         width: 100%;
         height: 0;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -79,7 +79,7 @@
         .back-img{
             width: 70%;
             height: 200%;
-            background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url('../assets/img/halftone.png');
+            background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0)), url('../assets/img/halftone.png');
             transform: rotate(30deg);
             position: absolute;
             top: -60%;
@@ -108,7 +108,7 @@
                 margin-left: 1.5vh;
                 height: 7vh;
                 font: 2.5vh Gilroy-ExtraBold;
-                color: rgba(255, 255, 255, 0.90);
+                color: rgba(0, 0, 0, 0.9);
                 text-align: left;
                 display: flex;
                 flex-direction: column;
@@ -185,7 +185,7 @@
                 align-items: flex-start;
                 .update-title{
                     font: 9vh SourceHanSansCN-Heavy;
-                    color: rgba(255, 255, 255, 0.95);
+                    color: rgba(0, 0, 0, 0.95);
                     transform: translateX(10%);
                     opacity: 0;
                     animation: update-title 1s 1.2s cubic-bezier(.5,0,.15,1) forwards;
@@ -200,7 +200,7 @@
                     .update-title-en{
                         line-height: 6.4vh !important;
                         font: 6.4vh SourceHanSansCN-Heavy;
-                        color: rgba(255, 255, 255, 0.95);
+                        color: rgba(0, 0, 0, 0.95);
                         white-space: nowrap;
                         transform: translateX(10%);
                         opacity: 0;
@@ -215,7 +215,7 @@
                         line-height: 6.4vh !important;
                         padding: 2px 6px;
                         font: 6.4vh SourceHanSansCN-Heavy;
-                        color: rgba(0, 0, 0, 0.95);
+                        color: rgba(255, 255, 255, 0.95);
                         position: relative;
                         overflow: hidden;
                         opacity: 0;
@@ -226,7 +226,7 @@
                             position: absolute;
                             top: 0;
                             left: -101%;
-                            background-color: rgba(255, 255, 255, 0.95);
+                            background-color: rgba(0, 0, 0, 0.95);
                             z-index: -1;
                             animation: version-back 0.6s 1.5s cubic-bezier(.5,0,.15,1) forwards;
                             @keyframes version-back {
@@ -257,11 +257,11 @@
                     .to-update, .close{
                         padding: 0.8vh;
                         font: 2vh SourceHanSansCN-Bold;
-                        color: rgba(255, 255, 255, 0.95);
-                        border: 1px solid white;
+                        color: rgba(0, 0, 0, 0.95);
+                        border: 1px solid rgb(0, 0, 0);
                         &:hover{
-                            background-color: rgba(255, 255, 255, 0.95);
-                            color: black;
+                            background-color: rgba(0, 0, 0, 0.95);
+                            color: rgb(255, 255, 255);
                             cursor: pointer;
                         }
                     }

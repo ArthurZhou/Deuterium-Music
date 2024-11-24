@@ -118,7 +118,7 @@
             }
             .login-title{
                 font: 2.7vh SourceHanSansCN-Bold;
-                color: black;
+                color: rgb(255, 255, 255);
             }
         }
         
@@ -126,7 +126,7 @@
             margin-top: 5.5vh;
             .qrcode-tip{
                 font: 13px SourceHanSansCN-Bold;
-                color: black;
+                color: rgb(255, 255, 255);
             }
             .login-method{
                 span{
@@ -135,7 +135,7 @@
                     transition: 0.2s;
                     &:hover{
                         cursor: pointer;
-                        color: black;
+                        color: rgb(255, 255, 255);
                     }
                 }
                 .separation{
@@ -151,7 +151,7 @@
                     color: rgb(111, 111, 111);
                     &:hover{
                         cursor: pointer;
-                        color: black;
+                        color: rgb(255, 255, 255);
                     }
                 }
             }

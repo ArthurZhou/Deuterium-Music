@@ -66,7 +66,7 @@
     .search-input{
         width: 100%;
         padding: 0 10Px;
-        color: black;
+        color: rgb(255, 255, 255);
         border: none;
         border-style: none;
         background: none;
@@ -75,7 +75,7 @@
         font: 12Px SourceHanSansCN-Bold;
         &::-webkit-input-placeholder{
             font: 12Px Geometos;
-            color: black;
+            color: rgb(255, 255, 255);
         }
     }
     .search-border{
@@ -87,38 +87,38 @@
         top: 0;
         left: 0;
         border: {
-            top: $boderpx solid black;
-            left: $boderpx solid black;
+            top: $boderpx solid rgb(255, 255, 255);
+            left: $boderpx solid rgb(255, 255, 255);
         };
     }
     .search-border2{
         top: 0;
         right: 0;
         border: {
-            top: $boderpx solid black;
-            right: $boderpx solid black;
+            top: $boderpx solid rgb(255, 255, 255);
+            right: $boderpx solid rgb(255, 255, 255);
         };
     }
     .search-border3{
         bottom: 0;
         right: 0;
         border: {
-            bottom: $boderpx solid black;
-            right: $boderpx solid black;
+            bottom: $boderpx solid rgb(255, 255, 255);
+            right: $boderpx solid rgb(255, 255, 255);
         };
     }
     .search-border4{
         bottom: 0;
         left: 0;
         border: {
-            bottom: $boderpx solid black;
-            left: $boderpx solid black;
+            bottom: $boderpx solid rgb(255, 255, 255);
+            left: $boderpx solid rgb(255, 255, 255);
         };
     }
     .search-border-2{
         width: 4Px;
         height: 4Px;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         position: absolute;
     }
     .search-border5{
